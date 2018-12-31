@@ -11,9 +11,13 @@
         android:label="@string/app_name"
         android:supportsRtl="true">
         <activity android:name="com.multiple_media_picker.ImagesGallery"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
         <activity android:name="com.multiple_media_picker.VideosGallery"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
     </application>
 
 </manifest>
